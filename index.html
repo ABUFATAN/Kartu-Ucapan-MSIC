@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Kartu Ucapan MSIC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="home-page">
+      <section class="top-grid">
+        <figure class="asset-frame hero-frame">
+          <img
+            src="assets/image-1-ilustrasi-idul-fitri.png"
+            alt="Ilustrasi Idul Fitri"
+            class="asset-image"
+            data-asset-key="hero"
+            data-candidates="assets/image-1-ilustrasi-idul-fitri.png,assets/image1.png,assets/ilustrasi-idul-fitri.png"
+          />
+          <figcaption>image 1 - ilustrasi idul fitri</figcaption>
+        </figure>
+
+        <figure class="asset-frame branding-frame">
+          <img
+            src="assets/image-2-branding-msic.png"
+            alt="Branding Mutiara Sunnah"
+            class="asset-image"
+            data-asset-key="branding"
+            data-candidates="assets/image-2-branding-msic.png,assets/image2.png,assets/branding-msic.png"
+          />
+          <figcaption>image 2 - branding mutiara sunnah</figcaption>
+        </figure>
+      </section>
+
+      <section class="template-section" aria-label="Pilih template kartu">
+        <div class="template-list" id="templateList">
+          <button type="button" class="template-card selected" aria-label="Template kartu 1">
+            <img
+              src="assets/image-template-kartu-1.png"
+              alt="Template kartu 1"
+              data-asset-key="template-1"
+              data-candidates="assets/image-template-kartu-1.png,assets/image-template-kartu.png,assets/template-1.png"
+            />
+          </button>
+          <button type="button" class="template-card" aria-label="Template kartu 2">
+            <img
+              src="assets/image-template-kartu-2.png"
+              alt="Template kartu 2"
+              data-asset-key="template-2"
+              data-candidates="assets/image-template-kartu-2.png,assets/image-template-kartu.png,assets/template-2.png"
+            />
+          </button>
+          <button type="button" class="template-card" aria-label="Template kartu 3">
+            <img
+              src="assets/image-template-kartu-3.png"
+              alt="Template kartu 3"
+              data-asset-key="template-3"
+              data-candidates="assets/image-template-kartu-3.png,assets/image-template-kartu.png,assets/template-3.png"
+            />
+          </button>
+          <button type="button" class="template-card" aria-label="Template kartu 4">
+            <img
+              src="assets/image-template-kartu-4.png"
+              alt="Template kartu 4"
+              data-asset-key="template-4"
+              data-candidates="assets/image-template-kartu-4.png,assets/image-template-kartu.png,assets/template-4.png"
+            />
+          </button>
+        </div>
+
+        <button type="button" class="ok-button" id="okButton">OK</button>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
